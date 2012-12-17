@@ -47,7 +47,7 @@ public class Baseonweb {
         } catch (IOException ex) {
             Logger.getLogger(Baseonweb.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+     // test    
         Init_Str tempstr;
         tempstr = (Init_Str)tempob;
         System.out.println(tempstr.getAdminid());
