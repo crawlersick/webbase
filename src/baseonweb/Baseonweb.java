@@ -23,7 +23,8 @@ public class Baseonweb {
         is.setPort(9999);
         is.setAdminpw("11111100000000");
         is.setAdminid("iamsick");
-        HashMap hm=new HashMap();
+        HashMap<String,String> hm; 
+        hm = new HashMap<>();
         hm.put("/home", "index.html");
         hm.put("/home2", "index2.html");
         is.setHm(hm);

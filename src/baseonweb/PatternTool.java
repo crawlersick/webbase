@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class PatternTool {
     private final static Pattern HttpGetItem=
                                        //Pattern.compile("^GET\\s+([^\\s]+)\\s+[^\\s]+\\s+HOST:\\s+([^\\s]+)\\s+USER-AGENT:([^\\s]+).+",0b1110);
-            Pattern.compile("^([^\\s]+)\\s+([^\\s]+)\\s+([^\\s]+)\\s+\\n.*",0b1110);
+            Pattern.compile("^([^\\s]+)\\s+([^\\s]+)\\s+([^\\s]+)\\s+\\n.*",13);
                             
 
     public static Pattern getHttpGetItem() {
@@ -29,7 +29,7 @@ public class PatternTool {
     
     
      public static Pattern getp(String strp,int flag){
-         return Pattern.compile(strp, 0b1110);   
+         return Pattern.compile(strp, 13);   
      }
     public static String[] gets(String s, Pattern p)
     {
