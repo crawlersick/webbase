@@ -23,11 +23,10 @@ public class Baseonweb {
         is.setPort(9999);
         is.setAdminpw("11111100000000");
         is.setAdminid("iamsick");
-        HashMap<String,String> hm; 
-        hm = new HashMap<>();
+        HashMap<String,String> hm = new HashMap<String,String>();
         hm.put("/home", "index.html");
         hm.put("/home2", "index2.html");
-        is.setHm(hm);
+        is.setHm(hm);          
         
         Xmltools xml_tool=new Xmltools();
         File xmlfile = new File("cfg.xml");
