@@ -42,7 +42,8 @@ import java.util.logging.Logger;
             
             String newfind=
                     //"00 02 01 00 00 01 00 00 00 00 00 00 04 70 6F 70 64 02 69 78 06 6E 65 74 63 6F 6D 03 63 6F 6D 00 00 01 00 01";
-             "00 1f 53 d3 01 00 00 01 00 00 00 00 00 00 03 77 77 77 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01";
+             //"00 1f 53 d3 01 00 00 01 00 00 00 00 00 00 03 77 77 77 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01";
+            "00 1f 00 00 01 00 00 01 00 00 00 00 00 00 03 77 77 77 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01";
             newfind=newfind.replaceAll(" ", "");
             System.out.println(newfind);
             b1=HexCodec.hexToBytes(newfind.toCharArray());
