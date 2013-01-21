@@ -26,6 +26,7 @@ import java.util.logging.Logger;
      
      }
      
+     @SuppressWarnings("empty-statement")
     public String Getip( String DNSs,String TgDN) throws Exception{
             s=new Socket(DNSs,53);
            // fdata="\u0000\u0002\u0001\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000"+TgDN+"\u0000\u0000\u0001\u0000\u0001";
@@ -65,11 +66,39 @@ import java.util.logging.Logger;
             osm.write(b1,0,b1.length);
             //osm.flush();
             System.out.println("***************************************");
+            
+            int n=0;
             while ((x=ism.read())!=-1)
             {
-            System.out.print(Integer.toHexString(x));
+            System.out.print(Integer.toHexString(x)+"~"+(byte)x+"|");
+            b3[n]=x;
+            n++;
             }
             System.out.println("\n***************************************");
+            
+            for(int i=0;i<n;i++)
+            {
+              //  System.out.print(b3[i]+"  ^");
+                if(b3[i]==192
+                        &&
+                   b3[i+2]==0
+                        &&
+                   b3[i+3]==1
+                        &&
+                   b3[i+4]==0
+                        &&
+                   b3[i+5]==1
+                        ){
+                    
+                                System.out.println(b3[i+12]);
+                                System.out.println(b3[i+13]);
+                                System.out.println(b3[i+14]);
+                                System.out.println(b3[i+15]);
+                                break;
+                            }
+            }
+            
+            
             
     return null;
     }
@@ -79,7 +108,7 @@ import java.util.logging.Logger;
              
              DNSQ dq=new DNSQ();
            // dq.Getip("202.96.128.166", "baidu.com");
-               dq.Getip("8.8.8.8", "baidu.com");
+               dq.Getip("8.8.4.4", "baidu.com");
              
          } catch (Exception ex) {
              Logger.getLogger(DNSQ.class.getName()).log(Level.SEVERE, null, ex);
@@ -90,6 +119,7 @@ import java.util.logging.Logger;
     private int x;
     private byte[] b1;
     private byte[] b2;
+    private int[] b3=new int[1024];
     private String fdata;
     private String DNSserver;
     private String TargetDomainName;
