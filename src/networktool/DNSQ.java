@@ -1,6 +1,8 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * This function is for DNS qurey with a specified DNS server ip and Target Domain
+ * input DNS ip and Target Domain as parameter and output a ip list in below fomat:
+ * 184.154.128.246|184.154.128.245|184.154.128.244|184.154.128.243
+ *  try others if the first ip connect failed.
  */
 package networktool;
 
@@ -87,7 +89,7 @@ import java.util.logging.Logger;
             for(i=headnum;i<headnum+tb_end.length;i++)
                   tb[i]=tb_end[i-headnum];
             return i;
-                                                                                                                           }
+}
     private int datasize;   
     private byte[] b0=new byte[1024];
     private byte[] datahead={0x00,0x1f,0x00,0x00,0x01,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00};
