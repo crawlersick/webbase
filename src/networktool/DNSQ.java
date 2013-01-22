@@ -54,36 +54,31 @@ import java.util.logging.Logger;
             System.out.println(newfind);
             b1=HexCodec.hexToBytes(newfind.toCharArray());
       */      
-            
-            //b1=fdata.getBytes("UTF-8");
- // b1=new byte[]{0x00, 0x1f,(byte)0xbb};
-            b1=b0;
-            for(int i=0;i<datasize;i++){
+            /*
+           for(int i=0;i<datasize;i++){
                 
-                    System.out.print(Integer.toHexString(b1[i])+" ");
+                    System.out.print(Integer.toHexString(b0[i])+" ");
             }
             System.out.println();
-            
-            
-            
+            */
+
             osm=s.getOutputStream();
             ism=s.getInputStream();
-            osm.write(b1,0,datasize);
+            osm.write(b0,0,datasize);
             //osm.flush();
-            System.out.println("***************************************");
+            //System.out.println("***************************************");
             
             int n=0;
             while ((x=ism.read())!=-1)
             {
-            System.out.print(Integer.toHexString(x)+"~"+x+"|");
+            //System.out.print(Integer.toHexString(x)+"~"+x+"|");
             b3[n]=x;
             n++;
             }
-            System.out.println("\n***************************************");
+            //System.out.println("\n***************************************");
             
             for(int i=0;i<n;i++)
             {
-              //  System.out.print(b3[i]+"  ^");
                 if(b3[i]==192
                         &&
                    b3[i+2]==0
@@ -94,17 +89,10 @@ import java.util.logging.Logger;
                         &&
                    b3[i+5]==1
                         ){
-                    
                                 System.out.println(b3[i+12]+"."+b3[i+13]+"."+b3[i+14]+"."+b3[i+15]);
-                                //System.out.println(b3[i+13]);
-                                //System.out.println(b3[i+14]);
-                                //System.out.println(b3[i+15]);
-                              //  break;
                             }
             }
-            
-            
-            
+                        
     return null;
     }
     
@@ -113,7 +101,8 @@ import java.util.logging.Logger;
              
              DNSQ dq=new DNSQ();
             //dq.Getip("202.96.128.166", "baidu.com");
-              dq.Getip("8.8.8.8", "t66y.com");
+             // dq.Getip("8.8.8.8", "t66y.com");
+              dq.Getip("8.8.8.8", "www.youtube.com");
               //dq.Getip("8.8.8.8", "plus.google.com");
              //String aaa="asd";
              //System.out.println(aaa.getBytes("ASCII").length);
@@ -139,8 +128,7 @@ import java.util.logging.Logger;
             }
             return i;
     }
-    
-    
+
     private byte[] b0=new byte[1024];
     private byte[] datahead={0x00,0x1f,0x00,0x00,0x01,0x00,0x00,0x01,0x00,0x00,0x00,0x00,0x00,0x00};
     private byte[]dataend={0x00,0x00,0x01,0x00,0x01};
@@ -156,28 +144,4 @@ import java.util.logging.Logger;
     private Socket s;
     private InputStream ism;
     private OutputStream osm;
-}
-
-
- class HexCodec {
-  private static final char[] kDigits = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a',
-      'b', 'c', 'd', 'e', 'f' };
-
-  public static byte[] hexToBytes(char[] hex) {
-    int length = hex.length / 2;
-    byte[] raw = new byte[length];
-    for (int i = 0; i < length; i++) {
-      int high = Character.digit(hex[i * 2], 16);
-      int low = Character.digit(hex[i * 2 + 1], 16);
-      int value = (high << 4) | low;
-      if (value > 127)
-        value -= 256;
-      raw[i] = (byte) value;
-    }
-    return raw;
-  }
-
-  public static byte[] hexToBytes(String hex) {
-    return hexToBytes(hex.toCharArray());
-  }
 }
