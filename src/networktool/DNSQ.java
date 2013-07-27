@@ -19,6 +19,9 @@ import java.util.logging.Logger;
  */
  public    class  DNSQ {
     public String Getip( String DNSs,String TgDN) throws Exception{
+        
+        System.out.println("start to dnsloopup "+TgDN);
+        
          datasize=adddataend(0,b0,datahead);strarr=TgDN.split("\\.");
             for(String tempstr:strarr)
             {
@@ -71,8 +74,9 @@ import java.util.logging.Logger;
          try { 
              DNSQ dq=new DNSQ();
               String a=
-                  //    dq.Getip("8.8.8.8", "www.youtube.com");
-                   dq.Getip("8.8.8.8", "t66y.com");
+                   //   dq.Getip("8.8.8.8", "www.youtube.com");
+                  // dq.Getip("8.8.8.8", "t66y.com");
+                       dq.Getip("8.8.8.8", "dl.google.com");
               System.out.println(a);
          } catch (Exception ex) {
              Logger.getLogger(DNSQ.class.getName()).log(Level.SEVERE, null, ex);
