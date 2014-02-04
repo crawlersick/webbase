@@ -39,8 +39,16 @@ public class AppspotSocket {
     
     sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
         DNSQ dq=new DNSQ();
-        
-    String tempresult=dq.Getip("8.8.8.8", webhost);
+     
+    String googlelist[]={
+        "www.google.com","mail.google.com","www.google.com.hk","www.google.com.tw","www.l.google.com"
+        ,
+        "www.google.com.tw","www.google.com.sg","www.google.co.jp","www.google.sg","www.google.cat","mail.google.com","mail.l.google.com"
+    };
+    
+    
+    
+    String tempresult=dq.Getip("114.114.114.114", "www.google.sg");
     ipadrs= tempresult.split("\\|");
     if (ipadrs==null )
     {
@@ -59,7 +67,7 @@ System.out.println(ipadrs[0]);
   
   try{
       sock = (SSLSocket) sslsocketfactory.createSocket();
-  sock.connect(socketAddress,800);
+  sock.connect(socketAddress,1600);
   loopflag=false;
   }catch (SocketTimeoutException se){
   loopcnt++;

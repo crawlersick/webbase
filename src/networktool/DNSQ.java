@@ -76,7 +76,7 @@ import java.util.logging.Logger;
               String a=
                    //   dq.Getip("8.8.8.8", "www.youtube.com");
                   // dq.Getip("8.8.8.8", "t66y.com");
-                       dq.Getip("8.8.8.8", "dl.google.com");
+                     dq.Getip("8.8.8.8", "google.com");
               System.out.println(a);
          } catch (Exception ex) {
              Logger.getLogger(DNSQ.class.getName()).log(Level.SEVERE, null, ex);
