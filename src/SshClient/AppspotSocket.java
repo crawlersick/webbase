@@ -41,14 +41,31 @@ public class AppspotSocket {
         DNSQ dq=new DNSQ();
      
     String googlelist[]={
-        "www.google.com","mail.google.com","www.google.com.hk","www.google.com.tw","www.l.google.com"
-        ,
-        "www.google.com.tw","www.google.com.sg","www.google.co.jp","www.google.sg","www.google.cat","mail.google.com","mail.l.google.com"
+       "www.google.com.hk","www.google.com.tw","www.google.com.sg","www.google.co.jp","www.google.sg","www.google.cat"
     };
     
+    int effecnt=0;
+    String effelist[]=new String[googlelist.length];
+    for(int i=0;i<googlelist.length;i++)
+    {
+        try{
+        String tempresult=dq.Getip("114.114.114.114", googlelist[i]);
+        effelist[effecnt]=tempresult.split("\\|")[0];
+        effecnt++;
+        }catch(Exception e)
+        {
+        System.out.println(e);
+        }
+    }
     
+    System.out.println("------------");
+    for(int i=0;i<effecnt;i++)
+    {
+    System.out.println(effelist[i]);
+    }
+    System.out.println("------------");
     
-    String tempresult=dq.Getip("114.114.114.114", "www.google.sg");
+    String tempresult=dq.Getip("114.114.114.114", "www.google.com.tw");
     ipadrs= tempresult.split("\\|");
     if (ipadrs==null )
     {

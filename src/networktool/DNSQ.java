@@ -8,6 +8,7 @@ package networktool;
 
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.nio.ByteBuffer;
 import java.util.logging.Level;
@@ -33,7 +34,10 @@ import java.util.logging.Logger;
           datasize=adddataend(datasize,b0,dataend);
           byte[] tempbyby=ByteBuffer.allocate(4).putInt(datasize-2).array();
           b0[0]=tempbyby[2];b0[1]=tempbyby[3];
-          s=new Socket(DNSs,53);
+          s=new Socket();      
+          s.connect(new InetSocketAddress(DNSs,53),800); 
+          s.setSoTimeout(800);
+          //s=new Socket(DNSs,53);
   /*        
             String newfind= "00 1f 00 00 01 00 00 01 00 00 00 00 00 00 03 77 77 77 05 62 61 69 64 75 03 63 6f 6d 00 00 01 00 01";
             newfind=newfind.replaceAll(" ", "");
