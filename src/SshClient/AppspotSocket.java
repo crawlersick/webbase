@@ -2,6 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
+
+
+/*
+ 
+
+ 
+ */
 package SshClient;
 
 
@@ -64,19 +71,23 @@ public class AppspotSocket {
     System.out.println(effelist[i]);
     }
     System.out.println("------------");
-    
-    String tempresult=dq.Getip("114.114.114.114", "www.google.com.tw");
+    /*
+    String tempresult=dq.Getip("114.114.114.114", "www.google.com.cat");
     ipadrs= tempresult.split("\\|");
     if (ipadrs==null )
     {
         Errormsg= "Error: not DNS IP found!";
     }
     
-System.out.println(ipadrs[0]);
+          */
+    
+    
+ 
+System.out.println(effelist[3]);
 //System.out.println(webhost);
    //sock = (SSLSocket) sslsocketfactory.createSocket();
    // sock = (SSLSocket) sslsocketfactory.createSocket(ipadrs[0],hostport);
-  SocketAddress socketAddress = new InetSocketAddress(ipadrs[0],hostport);
+  SocketAddress socketAddress = new InetSocketAddress(effelist[3],hostport);
   
   boolean loopflag = true;
   int loopcnt=0;
