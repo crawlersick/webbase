@@ -377,8 +377,7 @@ public class AppspotSocket {
             //if(arg!=null && arg=)
             
             
-            //AppspotSocket appsock= new AppspotSocket("aiworkserver");
-            AppspotSocket appsock= new AppspotSocket("sorryformynet");
+            AppspotSocket appsock= new AppspotSocket("vpngatefetch");
             //String restr=appsock.URLConmunicate("kukuana?qtype=123&qvalue=我");
             String restr=appsock.URLConmunicate("urlfopenvpn?qtype=http://www.vpngate.net/api/iphone/");
             int delaynum=90;

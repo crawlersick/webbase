@@ -39,7 +39,7 @@ public class GetOpenVpn extends JPanel
                // try {
                //     Thread.sleep(1000 + random.nextInt(2000));
                // } catch (InterruptedException ignore) {}
-                appsock= new AppspotSocket("sorryformynet");
+                appsock= new AppspotSocket("vpngatefetch");
             } catch (Exception ex) {
                 ex.printStackTrace();
                 System.exit(3);
