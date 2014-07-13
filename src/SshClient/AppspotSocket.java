@@ -28,12 +28,17 @@ import networktool.DNSQ;
 import sun.misc.BASE64Decoder;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 /**
  *
  * @author sick
  */
 public class AppspotSocket {
+    Logger logger = Logger.getLogger(AppspotSocket.class.getName()); 
+    FileHandler fh;
     String webhost;
     String appid;
     private int hostport;
@@ -46,8 +51,33 @@ public class AppspotSocket {
     private InputStream ist;
     private byte b[]=new byte[1024];
     ByteBuffer bbuf = ByteBuffer.allocate(2000000);
+    private int progress=0;
+    
+    public int getProgress(){return progress;}
+    
     public AppspotSocket(String appid) throws Exception
     {
+        try {  
+
+        // This block configure the logger with handler and formatter  
+        fh = new FileHandler("LogFile.log");  
+        logger.addHandler(fh);
+        SimpleFormatter formatter = new SimpleFormatter();  
+        fh.setFormatter(formatter);  
+
+        // the following statement is used to log any messages  
+        logger.info("log:");  
+
+    } catch (SecurityException e) {  
+        e.printStackTrace();  
+    } catch (IOException e) {  
+        e.printStackTrace();  
+    }  
+
+    logger.info("--------------------");  
+        
+        
+        
     this.appid=appid;
     this.webhost=appid+".appspot.com";
     this.hostport=443;
@@ -106,14 +136,17 @@ public class AppspotSocket {
     ipsidx++;
                          }
     
+    progress=10;
     
     
-    System.out.println("------------");
+    
+   // System.out.println("------------");
     for(int i=0;i<effecnt;i++)
     {
-    System.out.println(effelist[i]);
+    logger.info(effelist[i]);
+    //System.out.println(effelist[i]);
     }
-    System.out.println("------------");
+  //  System.out.println("------------");
     /*
     String tempresult=dq.Getip("114.114.114.114", "www.google.com.cat");
     ipadrs= tempresult.split("\\|");
@@ -145,13 +178,16 @@ public class AppspotSocket {
   loopflag=false;
   }catch (SocketTimeoutException se){
   loopcnt++;
-  System.out.println("" + rip+" Time out Retry connect : "+ loopcnt);
+  logger.info("" + rip+" Time out Retry connect : "+ loopcnt);
+  //System.out.println("" + rip+" Time out Retry connect : "+ loopcnt);
  
   }
   }
-  
- System.out.println("connected!!"+rip +" :: "+effelist[rip]);
-    sock.setSoTimeout(100000);
+  logger.info("connected!!"+rip +" :: "+effelist[rip]);
+ //System.out.println("connected!!"+rip +" :: "+effelist[rip]);
+ 
+ progress=30;
+    sock.setSoTimeout(150000);
  //System.out.println("2222");
     ost=sock.getOutputStream();
     ist=sock.getInputStream();
@@ -220,7 +256,7 @@ public class AppspotSocket {
     }
   //  System.out.println("read bytes: "+bbuf.position());
     
-    
+    progress=70;
     
     bbuf.flip();
     byte bb[]=new byte[bbuf.limit()];
@@ -266,9 +302,19 @@ public class AppspotSocket {
                    tempstrsxxxx[14]=new String(decodedBytes,"UTF-8");
                    tempstrsxxxx[14]=tempstrsxxxx[14].replaceAll("#.+?\r\n", "");
                    
-                   if ( //tempstrsxxxx[14].indexOf("proto udp")!=-1 &&  
-                           Integer.valueOf(tempstrsxxxx[7])>0
-                           &&  Integer.valueOf(tempstrsxxxx[3])<delaynum
+                                       // System.out.println
+                                                logger.info(tempstrsxxxx[0]+"|"+tempstrsxxxx[1]+"|"+tempstrsxxxx[2]+
+                       "|"+tempstrsxxxx[3]+"|"+tempstrsxxxx[4]+"|"+tempstrsxxxx[5]+"|"+tempstrsxxxx[6]
+                       +"|"+tempstrsxxxx[7]+"|"+tempstrsxxxx[8]+"|"+tempstrsxxxx[9]+"|"+tempstrsxxxx[10]+"|"
+                       +tempstrsxxxx[11]+"|"+tempstrsxxxx[12]+"|"+tempstrsxxxx[13]+"|"
+                               // +udplist.get(tempudpportnum+1)+"|" //+tempstrsxxxx[14]
+                           );
+                   
+                   
+                   if ( isNumericInt(tempstrsxxxx[7])&&isNumericInt(tempstrsxxxx[3])&&isNumericInt(tempstrsxxxx[4])&&
+                           //tempstrsxxxx[14].indexOf("proto udp")!=-1 &&  
+                           Integer.valueOf(tempstrsxxxx[7])>0        &&
+                             Integer.valueOf(tempstrsxxxx[3])<delaynum
                            &&  Integer.valueOf(tempstrsxxxx[4])>speednum
                       )
                    {   
@@ -293,16 +339,12 @@ public class AppspotSocket {
                         osss.write(tempstrsxxxx[14].getBytes("UTF-8"));
                         osss.close(); 
                         
-                        System.out.println(tempfile.getAbsoluteFile());
+                        //System.out.println
+                                logger.info(tempfile.getAbsoluteFile().toString());
                         tempfile=null;   
-                          /* 
-                        System.out.println(tempstrsxxxx[0]+"|"+tempstrsxxxx[1]+"|"+tempstrsxxxx[2]+
-                       "|"+tempstrsxxxx[3]+"|"+tempstrsxxxx[4]+"|"+tempstrsxxxx[5]+"|"+tempstrsxxxx[6]
-                       +"|"+tempstrsxxxx[7]+"|"+tempstrsxxxx[8]+"|"+tempstrsxxxx[9]+"|"+tempstrsxxxx[10]+"|"
-                       +tempstrsxxxx[11]+"|"+tempstrsxxxx[12]+"|"+tempstrsxxxx[13]+"|"
-                                +udplist.get(tempudpportnum+1)+"|"+tempstrsxxxx[14]
-                           );
-                        */
+                           
+   
+                        
                         
                        }
                            //+tempstrsxxxx[14]+"|");
@@ -312,9 +354,22 @@ public class AppspotSocket {
                
  
             }
-    
+    progress=100;
     }
     
+    
+    public static boolean isNumericInt(String str)  
+{  
+  try  
+  {  
+    Integer d = Integer.parseInt(str);  
+  }  
+  catch(NumberFormatException nfe)  
+  {  
+    return false;  
+  }  
+  return true;  
+}
     
     public static void main(String arg[])
     {
