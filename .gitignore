@@ -4,6 +4,7 @@
 #*.jar
 *.war
 *.ear
+*.class
 /dist/
-/build/
+#/build/
 /nbproject/private/
