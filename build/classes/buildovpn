@@ -1,1 +1,1 @@
- jar cfm ovpn.jar Manifest.txt baseonweb/* SshClient/*
+ jar cfm ovpn.jar Manifest.txt baseonweb/* SshClient/* networktool/*
