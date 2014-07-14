@@ -34,18 +34,25 @@ public class GetOpenVpn extends JPanel
             int progress = 0;
             //Initialize progress property.
             setProgress(0);
-            try {
-                //Sleep for at least one second to simulate "startup".
-               // try {
-               //     Thread.sleep(1000 + random.nextInt(2000));
-               // } catch (InterruptedException ignore) {}
-                appsock= new AppspotSocket("vpngatefetch");
-            } catch (Exception ex) {
-                ex.printStackTrace();
-                System.exit(3);
-            }
-            Thread tempthd=new Thread(new AppspotsockThread(appsock));
-            tempthd.start();
+            
+            
+
+                    
+  
+                        try {
+                            //Sleep for at least one second to simulate "startup".
+                           // try {
+                           //     Thread.sleep(1000 + random.nextInt(2000));
+                           // } catch (InterruptedException ignore) {}
+                            appsock= new AppspotSocket("vpngatefetch");
+                        } catch (Exception ex) {
+                            ex.printStackTrace();
+                            System.exit(3);
+                        }
+                        Thread tempthd=new Thread(new AppspotsockThread(appsock));
+                        tempthd.start();
+            
+      
             
           
             while (progress < 100) {
@@ -245,7 +252,15 @@ AppspotSocket appsock;
     public void run() {
         
                 try {
-            String restr=appsock.URLConmunicate("urlfopenvpn?qtype=http://www.vpngate.net/api/iphone/");
+                    
+            
+            String restr=null;
+            
+            restr=appsock.URLConmunicate("urlfopenvpn?qtype=http://www.vpngate.net/api/iphone/");
+            
+            
+            
+            
             int delaynum=90;
             int speednum=3000000;
             String targetoutputfolder=GetOpenVpn.getOvpnOutput();
