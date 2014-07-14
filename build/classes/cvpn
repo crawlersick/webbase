@@ -1,0 +1,19 @@
+#set -x
+#if [[ -z "$1" ]] 
+#then
+#tempvar=`cat .cvpn`
+#else
+#tempvar=$1
+#echo $tempvar > .cvpn
+#fi
+
+
+trap "exit 1" INT
+
+for tempvar in `ls ~/VPN/*.ovpn | sort -nr -k 2 -t "k"`
+do
+sudo openvpn --float --allow-pull-fqdn --redirect-gateway --auth-nocache --inactive 30 --ping 4 --ping-exit 10 --config $tempvar
+done
+
+#sudo openvpn --allow-pull-fqdn --redirect-gateway --auth-nocache --config $1 
+#sudo openvpn --allow-pull-fqdn --redirect-gateway --auth-nocache --remote-cert-tls server --config $1 
