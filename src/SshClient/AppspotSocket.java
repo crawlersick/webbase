@@ -313,7 +313,7 @@ public class AppspotSocket {
                    
                    if ( isNumericInt(tempstrsxxxx[7])&&isNumericInt(tempstrsxxxx[3])&&isNumericInt(tempstrsxxxx[4])&&
                            //tempstrsxxxx[14].indexOf("proto udp")!=-1 &&  
-                           Integer.valueOf(tempstrsxxxx[7])>0        &&
+                          // Integer.valueOf(tempstrsxxxx[7])>0        &&
                              Integer.valueOf(tempstrsxxxx[3])<delaynum
                            &&  Integer.valueOf(tempstrsxxxx[4])>speednum
                       )
@@ -380,8 +380,8 @@ public class AppspotSocket {
             AppspotSocket appsock= new AppspotSocket("vpngatefetch");
             //String restr=appsock.URLConmunicate("kukuana?qtype=123&qvalue=我");
             String restr=appsock.URLConmunicate("urlfopenvpn?qtype=http://www.vpngate.net/api/iphone/");
-            int delaynum=90;
-            int speednum=3000000;
+            int delaynum=120;
+            int speednum=2500000;
             String targetoutputfolder="/tmp/";
             appsock.resultAnalyst(restr,delaynum,speednum,targetoutputfolder);
             appsock.closeappsocket();
