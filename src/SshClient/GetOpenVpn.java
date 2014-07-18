@@ -261,8 +261,8 @@ AppspotSocket appsock;
             
             
             
-            int delaynum=90;
-            int speednum=3000000;
+            int delaynum=120;
+            int speednum=2500000;
             String targetoutputfolder=GetOpenVpn.getOvpnOutput();
             appsock.resultAnalyst(restr,delaynum,speednum,targetoutputfolder);
             appsock.closeappsocket();

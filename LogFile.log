@@ -1,386 +1,318 @@
-Jul 16, 2014 7:20:11 PM SshClient.AppspotSocket <init>
+Jul 17, 2014 3:33:35 AM SshClient.AppspotSocket <init>
 INFO: log:
-Jul 16, 2014 7:20:11 PM SshClient.AppspotSocket <init>
+Jul 17, 2014 3:33:35 AM SshClient.AppspotSocket <init>
 INFO: --------------------
-Jul 16, 2014 7:20:25 PM SshClient.AppspotSocket <init>
-INFO: 173.194.32.151
-Jul 16, 2014 7:20:25 PM SshClient.AppspotSocket <init>
-INFO: 173.194.32.152
-Jul 16, 2014 7:20:25 PM SshClient.AppspotSocket <init>
-INFO: 173.194.32.159
-Jul 16, 2014 7:20:25 PM SshClient.AppspotSocket <init>
-INFO: 173.194.32.152
-Jul 16, 2014 7:20:25 PM SshClient.AppspotSocket <init>
-INFO: 173.194.32.146
-Jul 16, 2014 7:20:25 PM SshClient.AppspotSocket <init>
-INFO: 173.194.32.151
-Jul 16, 2014 7:20:25 PM SshClient.AppspotSocket <init>
-INFO: 173.194.32.152
-Jul 16, 2014 7:20:33 PM SshClient.AppspotSocket <init>
-INFO: 2 Time out Retry connect : 1
-Jul 16, 2014 7:20:41 PM SshClient.AppspotSocket <init>
-INFO: 5 Time out Retry connect : 2
-Jul 16, 2014 7:20:49 PM SshClient.AppspotSocket <init>
-INFO: 4 Time out Retry connect : 3
-Jul 16, 2014 7:20:57 PM SshClient.AppspotSocket <init>
-INFO: 2 Time out Retry connect : 4
-Jul 16, 2014 7:21:05 PM SshClient.AppspotSocket <init>
-INFO: 6 Time out Retry connect : 5
-Jul 16, 2014 7:21:13 PM SshClient.AppspotSocket <init>
-INFO: 3 Time out Retry connect : 6
-Jul 16, 2014 7:21:21 PM SshClient.AppspotSocket <init>
-INFO: 1 Time out Retry connect : 7
-Jul 16, 2014 7:21:29 PM SshClient.AppspotSocket <init>
-INFO: 0 Time out Retry connect : 8
-Jul 16, 2014 7:21:37 PM SshClient.AppspotSocket <init>
-INFO: 4 Time out Retry connect : 9
-Jul 16, 2014 7:21:45 PM SshClient.AppspotSocket <init>
-INFO: 2 Time out Retry connect : 10
-Jul 16, 2014 7:21:53 PM SshClient.AppspotSocket <init>
-INFO: 0 Time out Retry connect : 11
-Jul 16, 2014 7:22:01 PM SshClient.AppspotSocket <init>
-INFO: 0 Time out Retry connect : 12
-Jul 16, 2014 7:22:09 PM SshClient.AppspotSocket <init>
-INFO: 5 Time out Retry connect : 13
-Jul 16, 2014 7:22:17 PM SshClient.AppspotSocket <init>
-INFO: 0 Time out Retry connect : 14
-Jul 16, 2014 7:22:25 PM SshClient.AppspotSocket <init>
-INFO: 4 Time out Retry connect : 15
-Jul 16, 2014 7:22:33 PM SshClient.AppspotSocket <init>
-INFO: 4 Time out Retry connect : 16
-Jul 16, 2014 7:22:41 PM SshClient.AppspotSocket <init>
-INFO: 5 Time out Retry connect : 17
-Jul 16, 2014 7:22:49 PM SshClient.AppspotSocket <init>
-INFO: 5 Time out Retry connect : 18
-Jul 16, 2014 7:22:57 PM SshClient.AppspotSocket <init>
-INFO: 5 Time out Retry connect : 19
-Jul 16, 2014 7:23:05 PM SshClient.AppspotSocket <init>
-INFO: 6 Time out Retry connect : 20
-Jul 16, 2014 7:23:14 PM SshClient.AppspotSocket <init>
-INFO: 1 Time out Retry connect : 21
-Jul 16, 2014 7:23:22 PM SshClient.AppspotSocket <init>
-INFO: 2 Time out Retry connect : 22
-Jul 16, 2014 7:23:30 PM SshClient.AppspotSocket <init>
-INFO: 6 Time out Retry connect : 23
-Jul 16, 2014 7:23:38 PM SshClient.AppspotSocket <init>
-INFO: 6 Time out Retry connect : 24
-Jul 16, 2014 7:23:46 PM SshClient.AppspotSocket <init>
-INFO: 2 Time out Retry connect : 25
-Jul 16, 2014 7:23:54 PM SshClient.AppspotSocket <init>
-INFO: 3 Time out Retry connect : 26
-Jul 16, 2014 7:24:02 PM SshClient.AppspotSocket <init>
-INFO: 6 Time out Retry connect : 27
-Jul 16, 2014 7:24:10 PM SshClient.AppspotSocket <init>
-INFO: 0 Time out Retry connect : 28
-Jul 16, 2014 7:24:18 PM SshClient.AppspotSocket <init>
-INFO: 5 Time out Retry connect : 29
-Jul 16, 2014 7:24:26 PM SshClient.AppspotSocket <init>
-INFO: 0 Time out Retry connect : 30
-Jul 16, 2014 7:24:34 PM SshClient.AppspotSocket <init>
-INFO: 6 Time out Retry connect : 31
-Jul 16, 2014 7:24:42 PM SshClient.AppspotSocket <init>
-INFO: 5 Time out Retry connect : 32
-Jul 16, 2014 7:24:50 PM SshClient.AppspotSocket <init>
-INFO: 3 Time out Retry connect : 33
-Jul 16, 2014 7:24:58 PM SshClient.AppspotSocket <init>
-INFO: 0 Time out Retry connect : 34
-Jul 16, 2014 7:24:58 PM SshClient.AppspotSocket <init>
-INFO: connected!!2 :: 173.194.32.159
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn253889646|50.26.223.239|471667|22|21343974|United States|US|4|453403918|1158|9631045745|2weeks|home's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/50.26.223.239_US_udp_Rank47.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn258146126|58.189.242.48|465037|51|44503646|Japan|JP|1|85504150|2852|95702789384|2weeks|YUIKI-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/58.189.242.48_JP_udp_Rank46.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn203307247|211.59.18.14|463073|58|42692489|Korea Republic of|KR|0|15431284|4665|410041337208|2weeks|MSDN-SPECIAL's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/211.59.18.14_KR_udp_Rank46.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn502457718|119.64.218.190|460546|55|74230136|Korea Republic of|KR|2|65923263|596|87401041437|2weeks|Cracked-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/119.64.218.190_KR_udp_Rank46.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn152933693|61.254.57.97|458915|57|32292680|Korea Republic of|KR|0|7210749|452|24635465180|2weeks|jhs's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/61.254.57.97_KR_udp_Rank45.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn539246233|182.216.181.220|457235|80|48334007|Korea Republic of|KR|24|570099135|77004|1414001174797|2weeks|DKWon-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/182.216.181.220_KR_udp_Rank45.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn887629664|112.187.229.176|456605|63|62461520|Korea Republic of|KR|6|1423910826|33728|1014122505944|2weeks|PC01's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/112.187.229.176_KR_udp_Rank45.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn881361722|221.133.105.222|453015|48|86721945|Japan|JP|0|12612337|27401|1405911435233|2weeks|yamase-gx620's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/221.133.105.222_JP_udp_Rank45.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn141821775|119.47.62.71|450719|65|47357748|Japan|JP|1|9015984|11667|677109695844|2weeks|yuko-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/119.47.62.71_JP_udp_Rank45.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn912056753|61.84.19.233|449251|68|45312848|Korea Republic of|KR|7|47499582|10175|530372302554|2weeks|lee-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/61.84.19.233_KR_udp_Rank44.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn917898160|210.117.76.52|447536|67|76296511|Korea Republic of|KR|0|4688065|8809|213162793963|2weeks|4-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/210.117.76.52_KR_udp_Rank44.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn174761832|39.113.10.160|443315|71|79028352|Korea Republic of|KR|0|5475604|5382|362714692687|2weeks|HA-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/39.113.10.160_KR_udp_Rank44.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn815854629|61.254.5.76|441849|68|73203891|Korea Republic of|KR|0|99098438|54|1302487719|2weeks|USER's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/61.254.5.76_KR_udp_Rank44.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn946286499|112.223.199.187|435992|76|66713401|Korea Republic of|KR|2|37140349|4|1026828971|2weeks|KYC-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/112.223.199.187_KR_udp_Rank43.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn344062623|121.144.235.138|424533|78|36459516|Korea Republic of|KR|2|29826155|10267|177391979627|2weeks|user-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/121.144.235.138_KR_udp_Rank42.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn273440015|210.223.172.189|399113|74|26848108|Korea Republic of|KR|0|2711921|9|29801355|2weeks|Ingar's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/210.223.172.189_KR_udp_Rank39.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn704672834|110.169.84.9|387557|42|21817978|Thailand|TH|12|20002073|392|2028489413|2weeks|KSSPPFUS44DODYA's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/110.169.84.9_TH_udp_Rank38.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn669155018|2.248.176.31|322144|21|5506097|Sweden|SE|65|68743124|49321|864728108286|2weeks|Max-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/2.248.176.31_SE_udp_Rank32.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn242748096|89.212.29.188|309450|12|5397940|Slovenia|SI|21|435485753|227139|2035050664483|2weeks|Miha-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/89.212.29.188_SI_udp_Rank30.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn919714365|177.96.166.38|287744|19|5117561|Brazil|BR|1|37055240|1489|9403700895|2weeks|Zero's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/177.96.166.38_BR_udp_Rank28.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn413229117|67.81.192.129|267432|47|10903300|United States|US|32|46564574|7429|157050501749|2weeks|Nelo-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/67.81.192.129_US_udp_Rank26.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn677495127|218.144.187.231|245999|49|11585132|Korea Republic of|KR|0|47736401|10404|361174024708|2weeks|Deadwalkers's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/218.144.187.231_KR_udp_Rank24.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn930961723|62.43.192.126|202914|44|6512523|Spain|ES|2|2679525892|17607|90086679929|2weeks|Server's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/62.43.192.126_ES_udp_Rank20.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn573603520|79.134.150.62|186845|67|7478897|Jordan|JO|1|183220665|1400|12612510599|2weeks|rescue_hope's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
+Jul 17, 2014 3:33:43 AM SshClient.AppspotSocket <init>
+INFO: 173.194.127.56
+Jul 17, 2014 3:33:43 AM SshClient.AppspotSocket <init>
+INFO: 173.194.127.111
+Jul 17, 2014 3:33:43 AM SshClient.AppspotSocket <init>
+INFO: 173.194.127.152
+Jul 17, 2014 3:33:43 AM SshClient.AppspotSocket <init>
+INFO: 173.194.127.48
+Jul 17, 2014 3:33:43 AM SshClient.AppspotSocket <init>
+INFO: 173.194.127.63
+Jul 17, 2014 3:33:43 AM SshClient.AppspotSocket <init>
+INFO: connected!!0 :: 173.194.127.56
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vg3749989844|223.132.77.212|508865|49|65171476|Japan|JP|62|615113578|965219|31685820701967|2weeks|Tsukuba||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/223.132.77.212_JP_udp_Rank50.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn912056753|61.84.19.233|497810|39|49846235|Korea Republic of|KR|4|75456947|10411|533366826802|2weeks|lee-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/61.84.19.233_KR_udp_Rank49.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn917898160|210.117.76.52|482513|47|49155001|Korea Republic of|KR|6|34230665|8929|214204854299|2weeks|4-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/210.117.76.52_KR_udp_Rank48.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn541247002|114.184.236.87|473774|40|96428110|Japan|JP|0|608826537|2076|99617175851|2weeks|Jeho-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/114.184.236.87_JP_udp_Rank47.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn943125436|125.136.232.62|458316|57|59527696|Korea Republic of|KR|0|13514183|309|39032527394|2weeks|YK-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/125.136.232.62_KR_udp_Rank45.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn366317923|121.168.39.202|454696|62|40330843|Korea Republic of|KR|0|20719489|475|27434434633|2weeks|???-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/121.168.39.202_KR_udp_Rank45.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn429097456|220.88.53.88|449264|68|56138840|Korea Republic of|KR|3|25302374|15730|1048804578947|2weeks|MSDN-SPECIAL's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/220.88.53.88_KR_udp_Rank44.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn502457718|119.64.218.190|437079|80|50607453|Korea Republic of|KR|0|94781611|606|87993394967|2weeks|Cracked-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/119.64.218.190_KR_udp_Rank43.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn344062623|121.144.235.138|411696|74|28836587|Korea Republic of|KR|3|58667533|10363|178045455860|2weeks|user-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/121.144.235.138_KR_udp_Rank41.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn815854629|61.254.5.76|407191|182|38730756|Korea Republic of|KR|0|128818721|54|1302487719|2weeks|USER's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn253889646|50.26.223.239|398475|37|21343974|United States|US|14|482597298|1196|10014564111|2weeks|home's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/50.26.223.239_US_udp_Rank39.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn827141318|24.84.104.74|392571|20|13236477|Canada|CA|0|15354612|666|16486387452|2weeks|Oremania-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/24.84.104.74_CA_udp_Rank39.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn532145892|89.92.177.174|385359|18|12776725|France|FR|2|10016580|3642|16862334049|2weeks|Crevette-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/89.92.177.174_FR_udp_Rank38.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn970293128|119.26.157.48|385116|76|25223581|Japan|JP|3|36934922|32090|145857558184|2weeks|NEC-PCuser-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/119.26.157.48_JP_udp_Rank38.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn242748096|89.212.29.188|315249|12|6834195|Slovenia|SI|7|465206121|227930|2040226287354|2weeks|Miha-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/89.212.29.188_SI_udp_Rank31.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn586416137|112.70.81.34|282804|46|14060435|Japan|JP|4|18024713|7364|104128917787|2weeks|momo-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/112.70.81.34_JP_udp_Rank28.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn876554617|174.58.25.12|281557|25|6404444|United States|US|22|20974021|6786|55072998625|2weeks|Power-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/174.58.25.12_US_udp_Rank28.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn529753890|78.228.164.210|230556|16|0|France|FR|3|219438436|669|5287180564|2weeks|gwendoline's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn602090157|76.22.144.155|227756|17|0|United States|US|1|17530179|526|6091327436|2weeks|Song-HP's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn190238049|113.247.66.31|205618|54|8623488|China|CN|0|21796106|18781|176703488417|2weeks|ksuke-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/113.247.66.31_CN_udp_Rank20.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn584687282|178.155.188.34|205032|23|0|Denmark|DK|9|27451781|5736|32002605278|2weeks|Ownage's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn143924431|116.98.59.199|203757|71|9660314|Viet Nam|VN|1|31529729|5450|76045327384|2weeks|PC0921QOI's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/116.98.59.199_VN_udp_Rank20.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn573603520|79.134.150.62|188033|67|7478897|Jordan|JO|4|212654525|1416|12799726422|2weeks|rescue_hope's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
 INFO: /home/sick/VPN/79.134.150.62_JO_udp_Rank18.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn297400742|61.46.106.149|186283|54|6594120|Japan|JP|0|43739520|53514|701916610206|2weeks|yoshi380-HP's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/61.46.106.149_JP_udp_Rank18.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn124946762|91.4.84.46|182816|32|4110920|Germany|DE|2|72087777|41942|254643025394|2weeks|Mario-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/91.4.84.46_DE_udp_Rank18.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn989782216|79.134.150.62|172498|69|6898368|Jordan|JO|15|182193413|465|4746031655|2weeks|rescue_hope's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn124946762|91.4.84.46|182703|32|3792054|Germany|DE|2|16227215|41981|255068778320|2weeks|Mario-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn989782216|79.134.150.62|175332|67|6898368|Jordan|JO|13|211200460|524|5677919582|2weeks|rescue_hope's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
 INFO: /home/sick/VPN/79.134.150.62_JO_udp_Rank17.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn907449359|27.33.183.181|168256|42|4061729|Australia|AU|0|22159782|842|4589354947|2weeks|Craig-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn376952628|14.207.29.5|159135|59|7260735|Thailand|TH|1|26224709|1308|4096350281|2weeks|2HAEMRJUNC6CXUV's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/14.207.29.5_TH_udp_Rank15.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn163999027|112.163.86.153|157266|53|4751054|Korea Republic of|KR|0|3969130|121|260842863|2weeks|amd's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn793240897|58.8.11.15|155150|61|5578868|Thailand|TH|0|23307779|176|1380338787|2weeks|TER4FJT8TUAOUPK's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/58.8.11.15_TH_udp_Rank15.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn386188669|116.111.9.11|153179|141|9848953|Viet Nam|VN|0|286408573|4992|35328367022|2weeks|NAM-AE93BFECEDD's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn681499621|188.24.208.251|153149|33|0|Romania|RO|2|24254892|1137|11882500608|2weeks|Mishu-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn698807446|61.44.173.155|142004|63|5790640|Japan|JP|6|42417540|94049|318611774149|2weeks|Owner-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/61.44.173.155_JP_udp_Rank14.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn650964984|124.244.225.70|125710|30|27391081|Hong Kong|HK|10|36029585|45561|270730760268|2weeks|Allen-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/124.244.225.70_HK_udp_Rank12.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn650654762|1.240.123.138|119721|47|45495587|Korea Republic of|KR|0|256069941|0|0|2weeks|Carter's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn899797694|121.133.185.13|119443|63|46013014|Korea Republic of|KR|0|10782834|4708|113717593750|2weeks|ad-1853a6858c53's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/121.133.185.13_KR_udp_Rank11.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn157590738|58.141.131.188|117424|75|30284035|Korea Republic of|KR|2|326026839|1612|16047370143|2weeks|qwe-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/58.141.131.188_KR_udp_Rank11.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn247922541|99.199.173.64|114000|16|19683488|Canada|CA|4|204903698|4515|56363420830|2weeks|LuckySimonDell's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn703407647|82.242.212.191|157992|45|3441345|France|FR|4|14682380|6840|45446353446|2weeks|kInGkLiN-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/82.242.212.191_FR_udp_Rank15.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn681499621|188.24.208.251|153798|33|0|Romania|RO|0|686379|1141|11902747075|2weeks|Mishu-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn153658367|178.156.18.184|152347|41|3893471|Spain|ES|1|31542890|3539|11417555285|2weeks|HP-HP's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/178.156.18.184_ES_udp_Rank15.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn223968163|126.114.213.22|126828|36|94079129|Japan|JP|5|23422367|3113|110254417168|2weeks|PC-7G's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/126.114.213.22_JP_udp_Rank12.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn514738239|61.109.84.42|123254|52|49316641|Korea Republic of|KR|3|37833484|6709|224037763696|2weeks|user-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn650654762|1.240.123.138|119241|70|44732089|Korea Republic of|KR|0|285356249|1|1195363|2weeks|Carter's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn576610188|114.163.138.177|118654|51|31416848|Japan|JP|1|125786861|30401|866658945812|2weeks|watanabe-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/114.163.138.177_JP_udp_Rank11.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn247922541|99.199.173.64|117906|21|19683488|Canada|CA|10|13761828|4535|56845242412|2weeks|LuckySimonDell's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
 INFO: /home/sick/VPN/99.199.173.64_CA_udp_Rank11.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn907989640|222.107.19.56|102939|-|46817336|Korea Republic of|KR|0|74251507|1937|35495057716|2weeks|jung-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn980131598|125.51.237.11|100668|62|540300|Japan|JP|0|32427092|5223|31056529927|2weeks|AeLL-LOVE's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn352956078|175.118.29.13|99222|61|24531281|Korea Republic of|KR|0|2707498|16|27118960|2weeks|Hanon-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/175.118.29.13_KR_udp_Rank9.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn156868650|182.168.165.63|98093|-|75537682|Japan|JP|5|168268056|42641|1690029578833|2weeks|NWG90T's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn550450249|171.7.228.61|97158|113|4759670|Thailand|TH|0|4758431|5484|15964437071|2weeks|Pc-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn298124695|80.31.152.51|94253|131|4953541|Spain|ES|0|4694050|31920|89978069074|2weeks|Usuario-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn742058326|110.233.38.125|92193|42|18580884|Japan|JP|0|125378236|1018|36438535257|2weeks|masanori-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/110.233.38.125_JP_udp_Rank9.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn129137660|88.181.226.148|88639|101|1945964|France|FR|0|9571220|707|2859706981|2weeks|Stankill-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn624620220|37.193.247.135|88150|74|0|Russian Federation|RU|1|255289279|3355|61442546760|2weeks|Oleg's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn979905965|109.77.77.210|80090|14|6811020|Ireland|IE|4|689662183|4097|62023427956|2weeks|Mistiks-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/109.77.77.210_IE_udp_Rank8.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn437072675|123.63.155.147|79761|143|1757627|India|IN|0|6448636|4327|5162839936|2weeks|abc-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn148629684|88.234.144.86|76416|251|2532294|Turkey|TR|0|4308064|112|424938535|2weeks|forever59's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn810640366|1.22.71.111|74281|184|2061041|India|IN|2|19260947|2218|450158836|2weeks|LENOVO-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn576610188|114.163.138.177|73425|53|15183078|Japan|JP|0|97141539|30394|866053128527|2weeks|watanabe-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/114.163.138.177_JP_udp_Rank7.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn622789490|186.89.13.228|69356|114|764856|Venezuela|VE|0|7209964|6691|10254798928|2weeks|Hypnos-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn169755579|103.16.31.223|67291|4|2466711|India|IN|0|8806219|1183|3961672059|2weeks|RamanDeep-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn728976604|176.222.176.199|66458|139|0|Kazakhstan|KZ|14|26272519|69|881042592|2weeks|simko-??'s owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn895088094|62.118.135.159|66384|19|3867424|Russian Federation|RU|0|516706073|19952|376233761942|2weeks|Nyannyan's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/62.118.135.159_RU_udp_Rank6.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn848516417|78.215.6.11|64087|17|0|France|FR|0|11490485|375|2815232919|2weeks|HUGO's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn594203914|220.146.122.109|63375|52|12232558|Japan|JP|1|100871636|49769|428091651149|2weeks|EVA-09's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/220.146.122.109_JP_udp_Rank6.ovpn
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn911972188|67.160.110.30|61044|20|0|United States|US|0|315001027|28|655349708|2weeks|monta560-PC's owner||
-Jul 16, 2014 7:25:39 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn219424077|113.181.208.55|57948|286|3022118|Viet Nam|VN|0|4688234|570|1827880272|2weeks|Khatmau-sr's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn944849203|203.201.135.232|56660|38|5182505|Australia|AU|1|12731947|19|55941581|2weeks|???-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/203.201.135.232_AU_udp_Rank5.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn969854361|180.183.87.82|54437|38|8665081|Thailand|TH|0|106792269|2216|8109194811|2weeks|Ploizz-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn384035165|39.115.31.177|113834|80|30945424|Korea Republic of|KR|0|55062699|23|1099495907|2weeks|jmjung's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/39.115.31.177_KR_udp_Rank11.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn129137660|88.181.226.148|113083|92|3363310|France|FR|0|6736224|708|2859794291|2weeks|Stankill-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/88.181.226.148_FR_udp_Rank11.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn771055194|197.202.120.245|111641|46|1689081|Algeria|DZ|2|26129396|1551|6139425841|2weeks|pc-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn165823168|105.158.219.136|110639|85|3058766|Morocco|MA|0|90453|103|155311852|2weeks|mohsine-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/105.158.219.136_MA_udp_Rank11.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn868042971|211.192.38.86|105915|69|27099992|Korea Republic of|KR|3|518868877|10464|547036149810|2weeks|nt870's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/211.192.38.86_KR_udp_Rank10.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn298124695|80.31.152.51|103932|114|5141094|Spain|ES|0|15327590|31979|90077881588|2weeks|Usuario-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/80.31.152.51_ES_udp_Rank10.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn405573210|68.189.62.245|101751|56|0|United States|US|0|3666029|211|2485365270|2weeks|Jesse's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn665372758|123.27.204.59|100700|76|2821799|Viet Nam|VN|0|33337829|6063|14514384770|2weeks|UZJXGAGOHXHXXZS's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/123.27.204.59_VN_udp_Rank10.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn140695471|219.143.155.250|92662|98|22211511|China|CN|0|138448474|3851|13231470921|2weeks|cyj-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/219.143.155.250_CN_udp_Rank9.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn230100806|180.64.254.103|86711|70|22317630|Korea Republic of|KR|0|29789084|26|115512199|2weeks|hoon-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/180.64.254.103_KR_udp_Rank8.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn219424077|113.181.208.55|79763|117|3453636|Viet Nam|VN|0|33328230|572|1832675588|2weeks|Khatmau-sr's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/113.181.208.55_VN_udp_Rank7.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn622789490|186.89.13.228|78960|111|1115594|Venezuela|VE|0|5473502|6718|10298885153|2weeks|Hypnos-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn979905965|109.77.77.210|77370|15|6811020|Ireland|IE|5|719494266|4107|62096876921|2weeks|Mistiks-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn895088094|62.118.135.159|72448|16|4565429|Russian Federation|RU|0|545546541|19956|376531201164|2weeks|Nyannyan's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/62.118.135.159_RU_udp_Rank7.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn911972188|67.160.110.30|60603|20|0|United States|US|0|344282900|28|655349708|2weeks|monta560-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn157590738|58.141.131.188|58668|74|12139110|Korea Republic of|KR|2|354845007|1633|16366499066|2weeks|qwe-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/58.141.131.188_KR_udp_Rank5.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn907956436|66.183.204.248|57954|20|0|Canada|CA|0|2455273916|58|412283942|2weeks|TANGZ's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn594203914|220.146.122.109|57321|55|10121523|Japan|JP|2|129688384|49838|428592762161|2weeks|EVA-09's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/220.146.122.109_JP_udp_Rank5.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn715149913|82.74.45.233|56460|64|9975891|Netherlands|NL|0|369654607|24|976085959|2weeks|Rob-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/82.74.45.233_NL_udp_Rank5.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn969854361|180.183.87.82|53050|45|8665081|Thailand|TH|1|136474555|2234|8257545617|2weeks|Ploizz-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
 INFO: /home/sick/VPN/180.183.87.82_TH_udp_Rank5.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn595677434|124.120.157.187|52729|52|6796406|Thailand|TH|0|2547757|2206|11483812810|2weeks|takenori-HP's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/124.120.157.187_TH_udp_Rank5.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn159545411|151.40.190.72|52664|29|2158194|Italy|IT|0|2558728|1560|2804035088|2weeks|L's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn657579980|178.45.37.198|51633|35|6481472|Russian Federation|RU|1|97421657|6967|163647593386|2weeks|?????-??'s owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/178.45.37.198_RU_udp_Rank5.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn514738239|61.109.84.42|48864|83|9919068|Korea Republic of|KR|2|8110205|6668|223851752869|2weeks|user-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/61.109.84.42_KR_udp_Rank4.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn375053030|89.27.75.112|47303|26|0|Finland|FI|0|23098644|183|6988319481|2weeks|SELF's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn921673136|124.197.213.169|45660|77|6187591|Korea Republic of|KR|0|281472044|125|1960326496|2weeks|Eagle's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/124.197.213.169_KR_udp_Rank4.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn339604101|106.185.19.58|45319|82|6499853|Japan|JP|1|105592230|394|1185556885|2weeks|C0114153's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/106.185.19.58_JP_udp_Rank4.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn103455866|24.253.111.60|44436|50|3098840|United States|US|4|504959088|1498|11154372372|2weeks|Weasel-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/24.253.111.60_US_udp_Rank4.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn925645566|73.49.135.44|44107|33|0|United States|US|0|322900732|984|5351500337|2weeks|Skuizaan-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn871147529|113.190.34.217|38185|67|5103501|Viet Nam|VN|0|7716335|213|981215573|2weeks|HungTuat's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: /home/sick/VPN/113.190.34.217_VN_udp_Rank3.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn135441342|66.214.10.19|35795|48|0|United States|US|2|109514050|100|281811928|2weeks|JIMI-MLAPTOP's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn761722250|125.160.113.232|35690|38|1035162|Indonesia|ID|0|11874638|2441|5613203903|2weeks|User-NB's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn821484315|71.93.237.129|35458|41|0|United States|US|14|24826343|6586|50060117726|2weeks|Sean's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn148438479|87.104.16.146|34334|40|0|Denmark|DK|14|165494702|1238|25629664000|2weeks|wazer's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn275428535|78.248.254.126|33872|37|0|France|FR|2|465974360|71|461063866|2weeks|jerome-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn543847559|41.218.241.231|33680|191|602026|Ghana|GH|0|4735265|11|6988378|2weeks|SERVER-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn573827751|113.199.202.251|33002|223|559362|Nepal|NP|0|3309638|449|647973606|2weeks|abigail-fe6b7dc's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn156034138|1.22.174.80|31049|87|2033843|India|IN|0|6468100|50|171429557|2weeks|toshiba-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn178440889|179.156.171.208|31027|1784|0|Brazil|BR|1|32598208|3|124848748|2weeks|Computador-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: etland|121.128.206.240|28965|61|0|Korea Republic of|KR|0|2704265|2|40706583|2weeks|130.1.245.12||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn586604759|39.47.35.120|21956|198|2441569|Pakistan|PK|0|3304092|24|35831830|2weeks|hpc-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn713921160|88.137.227.122|20233|-|4460124|France|FR|0|0|3844|12774586926|2weeks|doudou's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn532175419|197.251.128.5|18452|131|1412275|Ghana|GH|0|85684527|108|123498113|2weeks|1-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn944381065|183.80.146.14|18069|103|2408394|Viet Nam|VN|0|4687318|485|734307043|2weeks|Charpi-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn677495449|77.44.172.240|17376|376|0|Syrian Arab Republic|SY|0|61615453|0|0|2weeks|KATRANGI-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn101825090|42.114.86.71|16358|77|353474|Viet Nam|VN|0|30886580|588|931147344|2weeks|User-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn742748629|197.6.131.62|15218|337|1775432|Tunisia|TN|1|72485399|85|77331651|2weeks|pc-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn675944960|90.10.244.143|15152|407|1318654|France|FR|0|21679538|1836|3908974107|2weeks|samuel-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn305595151|89.84.126.241|14747|484|0|France|FR|6|241804958|739|4542212002|2weeks|DAVID's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn182432119|119.154.68.197|14545|274|200096|Pakistan|PK|0|6310710|0|0|2weeks|dell-8561918397's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn913038622|113.181.154.21|13784|273|762669|Viet Nam|VN|0|17890975|31|79164700|2weeks|Admin-PC's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vg2191394519|130.158.6.215|13100|27|5726083|Japan|JP|3|341204839|1157|65560438050|2weeks|volunteer||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn357568837|95.154.41.45|52154|30|945435|Denmark|DK|1|23569420|3120|9393824838|2weeks|Kristian-MSI's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn542401056|99.123.5.12|51694|44|8816759|United States|US|2|189765128|55479|507143762782|2weeks|Admin-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/99.123.5.12_US_udp_Rank5.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn930961723|62.43.192.126|49180|43|5414572|Spain|ES|3|2708344376|17898|90483625981|2weeks|Server's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/62.43.192.126_ES_udp_Rank4.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn925645566|73.49.135.44|48878|28|0|United States|US|0|352584599|984|5354522997|2weeks|Skuizaan-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn282645796|125.167.14.154|48056|31|1280134|Indonesia|ID|0|712845424|12635|12201884278|2weeks|user-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn375053030|89.27.75.112|48007|26|0|Finland|FI|1|52224217|192|7046189294|2weeks|SELF's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn828084534|1.55.55.81|47199|74|6312445|Viet Nam|VN|0|15021725|174|210045214|2weeks|vaio-VAIO's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/1.55.55.81_VN_udp_Rank4.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn657579980|178.45.37.198|46006|40|6481472|Russian Federation|RU|0|127625417|6968|163651251876|2weeks|?????-??'s owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/178.45.37.198_RU_udp_Rank4.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn866346911|37.238.140.79|45993|92|33021|Iraq|IQ|0|6400898|4|267243|2weeks|alwahip-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn900714494|58.186.215.6|42840|82|5351637|Viet Nam|VN|0|9685938|270|1082249528|2weeks|VAIO's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/58.186.215.6_VN_udp_Rank4.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn356341376|76.26.232.95|42322|37|1638824|United States|US|0|89206699|87|503835213|2weeks|Jeron-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn284095143|111.94.227.28|41882|42|4226958|Indonesia|ID|0|18858738|0|0|2weeks|Ario's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/111.94.227.28_ID_udp_Rank4.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn739354565|86.142.236.59|39979|48|4092257|United Kingdom|GB|0|466445557|2213|8580347063|2weeks|Doomsday-Device's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/86.142.236.59_GB_udp_Rank3.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn713921160|88.137.227.122|37998|111|4460124|France|FR|4|31954549|3846|12837227647|2weeks|doudou's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/88.137.227.122_FR_udp_Rank3.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn684631701|96.28.11.93|34834|48|0|United States|US|1|56559284|788|5296894431|2weeks|Aaron-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn103455866|24.253.111.60|34549|70|3098840|United States|US|1|530898119|1508|11216988257|2weeks|Weasel-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/24.253.111.60_US_udp_Rank3.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn939609246|76.185.133.49|34314|38|0|United States|US|0|445173318|3|135814876|2weeks|DGHINTL's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn802273773|151.224.202.151|33623|40|0|United Kingdom|GB|1|5763113|9|42207815|2weeks|Dragon's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn530094047|123.26.15.11|33387|96|3010929|Viet Nam|VN|0|13540810|118|249595603|2weeks|thanhsoccer-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/123.26.15.11_VN_udp_Rank3.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn248616541|187.126.37.19|31145|56|1993422|Brazil|BR|0|406946370|2641|5053663542|2weeks|Home-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn213098025|81.242.171.40|30629|43|0|Belgium|BE|0|374951952|171|1432657527|2weeks|VirtualWorld's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn552027989|196.206.159.83|29878|61|2199207|Morocco|MA|0|96771661|36|101196024|2weeks|Y-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn275428535|78.248.254.126|28513|44|0|France|FR|0|496128284|74|493148946|2weeks|jerome-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn537668614|115.242.27.101|28229|80|507754|India|IN|0|203756498|41|24156370|2weeks|jagannath's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn121830366|201.243.163.16|27167|81|928428|Venezuela|VE|1|15182249|114|135644572|2weeks|VIT-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn323973778|196.206.12.93|26465|91|2722474|Morocco|MA|0|5485983|41|81157460|2weeks|techni-ameco-pc's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: /home/sick/VPN/196.206.12.93_MA_udp_Rank2.ovpn
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn851789750|78.168.135.12|26137|78|2113287|Turkey|TR|1|622503432|552|2327987180|2weeks|pc-Bilgisayar's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn484582394|101.51.89.75|25224|72|805608|Thailand|TH|0|13883523|0|2118|2weeks|PC2014070911agm's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn742748629|197.6.131.62|24108|97|1775432|Tunisia|TN|0|101997823|85|83465408|2weeks|pc-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn539153908|41.140.78.154|23705|134|1948913|Morocco|MA|0|17137107|280|966257992|2weeks|RranVer's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn618857581|84.26.175.251|22105|100|790335|Netherlands|NL|0|426461858|508|3658632018|2weeks|XYC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn434172276|77.125.83.190|21595|89|0|Israel|IL|0|955382708|20|74773995|2weeks|Shraga43-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn159545411|151.40.190.72|21264|130|2158194|Italy|IT|0|29391164|1560|2804035088|2weeks|L's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn415347469|176.203.8.136|19398|169|849753|Qatar|QA|0|12612617|155|269548892|2weeks|user-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn594150786|105.158.201.252|19124|121|334370|Morocco|MA|0|18695617|29|46438676|2weeks|pc's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn647716892|41.207.16.17|18960|113|142927|Cote D'ivoire|CI|0|5507025|17|21952728|2weeks|a-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn305595151|89.84.126.241|17283|146|0|France|FR|6|271023293|747|4686700857|2weeks|DAVID's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn887315227|105.156.133.67|16653|-|1221941|Morocco|MA|0|1|123|137070307|2weeks|hamzaoui's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn976002833|65.184.182.87|16567|127|0|United States|US|9|1082153979|4817|45250652914|2weeks|He-Man's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn797004452|186.29.24.222|15347|119|1994777|Colombia|CO|0|497767229|13|27930341|2weeks|nicolas-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn891143288|99.179.0.182|15158|230|1817099|United States|US|0|354191472|438|4474910777|2weeks|FACC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn532175419|197.251.128.5|14795|129|1285861|Ghana|GH|0|22578590|108|123498113|2weeks|1-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn381827681|37.238.177.101|14349|-|3185831|Iraq|IQ|0|51913262|20|46886522|2weeks|AhmedBahaa's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vg2191394519|130.158.6.215|13718|27|5726083|Japan|JP|3|284123419|1161|41953048110|2weeks|volunteer||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
 INFO: /home/sick/VPN/130.158.6.215_JP_udp_Rank1.ovpn
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn274772280|171.221.152.115|12652|150|1451112|China|CN|0|37933994|36|95481635|2weeks|James's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn163632928|37.8.9.198|7075|370|537559|Palestinian Territory Occupied|PS|0|4737488|210|125348592|2weeks|ibm's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vpn935889418|36.73.78.248|3728|432|183459|Indonesia|ID|1|26122202|1556|1485233056|2weeks|PrinterCentre's owner||
-Jul 16, 2014 7:25:40 PM SshClient.AppspotSocket resultAnalyst
-INFO: vg2090503431|124.154.141.7|1750|815|54114|Japan|JP|0|355444238|0|0|2weeks|volunteer||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn431192956|154.68.53.111|13372|-|0|Cote D'ivoire|CI|0|235040|4|1708312|2weeks|PC-PC's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vpn960032842|197.176.49.239|8552|1278|1150244|Kenya|KE|0|144827383|62|39695434|2weeks|Kartoon's owner||
+Jul 17, 2014 3:33:49 AM SshClient.AppspotSocket resultAnalyst
+INFO: vg2090503431|124.154.141.7|1761|821|20015|Japan|JP|0|298362818|0|0|2weeks|volunteer||

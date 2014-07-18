@@ -86,11 +86,11 @@ public class AppspotSocket {
         DNSQ dq=new DNSQ();
      
     String googlelist[]={
-    //   "www.google.com.hk","www.google.com.tw","www.google.com.sg","www.google.co.jp","www.google.sg","www.google.cat","www.google.jp"
-     //   ,"google.io","google.com.my","google.com.pr","google.sk","google.st",
-      //  "google.de","google.cz","google.ee","google.gf","google.gp","google.hn"
+    //   "www.google.com.hk","www.google.com.tw","www.google.com.sg","www.google.co.jp","www.google.sg","www.google.cat","www.google.jp",
+        //"google.io","google.com.my","google.com.pr","google.sk","google.st",
+        "google.de","google.cz","google.ee","google.gf","google.gp","google.hn"
             
-        "www.google.sg","www.google.cat","www.google.co.jp","google.st",  "google.io","google.com.my","www.google.com.tw"
+       // "www.google.sg","www.google.cat","www.google.co.jp","google.st",  "google.io","google.com.my","www.google.com.tw"
     };
     
     /*
@@ -173,7 +173,7 @@ public class AppspotSocket {
     rip=(int) (Math.random()*effecnt);  
     socketAddress = new InetSocketAddress(effelist[rip],hostport);
   sock = (SSLSocket) sslsocketfactory.createSocket();
-  sock.connect(socketAddress,8000);
+  sock.connect(socketAddress,88000);
 
   loopflag=false;
   }catch (SocketTimeoutException se){
