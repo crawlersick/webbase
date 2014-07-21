@@ -13,7 +13,7 @@ trap "exit 1" INT
 for tempvar in `ls ~/VPN/*.ovpn | sort -nr -k 3 -t "k"`
 do
 
-sudo openvpn --float --allow-pull-fqdn --redirect-gateway --auth-nocache  --inactive 8 --ping 2 --ping-exit 8 --config $tempvar
+sudo openvpn --float --allow-pull-fqdn --redirect-gateway --auth-nocache  --inactive 10 --ping 2 --ping-exit 7 --config $tempvar
 
 mv $tempvar ~/VPN/bk
 
