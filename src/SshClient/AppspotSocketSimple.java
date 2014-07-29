@@ -40,7 +40,8 @@ public class AppspotSocketSimple {
     sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
         DNSQ dq=new DNSQ();
         
-    String tempresult=dq.Getip("8.8.8.8", webhost);
+    String tempresult=dq.Getip("208.67.222.222", webhost);
+     // String tempresult=dq.Getip("2001:4860:4860::8888", webhost);
     ipadrs= tempresult.split("\\|");
     if (ipadrs==null )
     {
@@ -48,10 +49,11 @@ public class AppspotSocketSimple {
     }
     
 System.out.println(ipadrs[0]);
+System.out.println(ipadrs[ipadrs.length-1]);
 //System.out.println(webhost);
    //sock = (SSLSocket) sslsocketfactory.createSocket();
    // sock = (SSLSocket) sslsocketfactory.createSocket(ipadrs[0],hostport);
-  SocketAddress socketAddress = new InetSocketAddress(ipadrs[0],hostport);
+  SocketAddress socketAddress = new InetSocketAddress(ipadrs[ipadrs.length-1],hostport);
   
   boolean loopflag = true;
   int loopcnt=0;
@@ -59,7 +61,7 @@ System.out.println(ipadrs[0]);
   
   try{
       sock = (SSLSocket) sslsocketfactory.createSocket();
-  sock.connect(socketAddress,800);
+  sock.connect(socketAddress,1800);
   loopflag=false;
   }catch (SocketTimeoutException se){
   loopcnt++;

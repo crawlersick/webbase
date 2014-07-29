@@ -27,6 +27,7 @@ import javax.net.ssl.SSLSocketFactory;
 import networktool.DNSQ;
 import sun.misc.BASE64Decoder;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
@@ -87,16 +88,16 @@ public class AppspotSocket {
     sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
         DNSQ dq=new DNSQ();
      
-    String googlelist[]={
-    //   "www.google.com.hk","www.google.com.tw","www.google.com.sg","www.google.co.jp","www.google.sg","www.google.cat","www.google.jp",
-        //"google.io","google.com.my","google.com.pr","google.sk","google.st",
-        "google.de","google.cz","google.ee","google.gf","google.gp","google.hn"
-            
-       // "www.google.sg","www.google.cat","www.google.co.jp","google.st",  "google.io","google.com.my","www.google.com.tw"
-    };
-    
+        String googlelist[]={
+                //   "www.google.com.hk","www.google.com.tw","www.google.com.sg","www.google.co.jp","www.google.sg","www.google.cat","www.google.jp",
+                //"google.io","google.com.my","google.com.pr","google.sk","google.st",
+                "google.hk","google.tw","google.de","google.cz","google.ee","google.gf","google.gp","google.hn"
+
+                // "www.google.sg","www.google.cat","www.google.co.jp","google.st",  "google.io","google.com.my","www.google.com.tw"
+        };
+
     /*
-     * 
+     *
 173.194.127.18
 74.125.128.94
 173.194.127.55
@@ -108,47 +109,55 @@ public class AppspotSocket {
 173.194.127.243
 173.194.127.55
 74.125.128.94
-     * 
+     *
      */
-    
-    int effecnt=0;
-    String effelist[]=new String[googlelist.length];
-    String dnsserverips[]={"2001:4860:4860::8888","114.114.114.114","114.114.115.115","8.8.8.8","8.8.4.4"};
-    int ipsidx=0;
-    while(effecnt==0){
-    for(int i=0;i<googlelist.length;i++)
-    {
-        try{
-       //String tempresult=dq.Getip("114.114.114.114", googlelist[i]);
-        // String tempresult=dq.Getip("2001:4860:4860::8888", googlelist[i]);
-       //     String tempresult=dq.Getip("8.8.8.8", googlelist[i]);
-            
-        
-        //String tempresult=dq.Getip("156.154.70.1", googlelist[i]);         
-         String tempresult=dq.Getip(dnsserverips[(ipsidx % (dnsserverips.length-1))], googlelist[i]);         
-                 
-         String tempresultlist[] =tempresult.split("\\|");
-        effelist[effecnt]=tempresultlist[tempresultlist.length-1];
-        effecnt++;
-        }catch(Exception e)
-        {
-        System.out.println(e);
+
+        int effecnt=0;
+        //String effelist[]=new String[1024];
+        String effelist[];
+        HashSet<String> EffLst=new HashSet<String>();
+        String dnsserverips[]={"58.150.55.34","60.32.112.42","208.67.222.222","114.114.114.114"};
+        int ipsidx=0;
+        //while(effecnt==0){
+        while(ipsidx<dnsserverips.length){
+            for(int i=0;i<googlelist.length;i++)
+            {
+                try{
+
+                    String tempresult=dq.Getip(dnsserverips[(ipsidx % (dnsserverips.length))], googlelist[i]);
+                    String tempresultlist[] =tempresult.split("\\|");
+                    //effelist[effecnt]=tempresultlist[tempresultlist.length-1];
+                    for(int j=0;j<tempresultlist.length;j++) {
+          //              effelist[effecnt] = tempresultlist[j];
+                        effecnt++;
+                        EffLst.add(tempresultlist[j]);
+                    }
+                }catch(Exception e)
+                {
+                    System.out.println(e);
+                }
+            }
+            ipsidx++;
         }
-    }
-    ipsidx++;
-                         }
-    
-    progress=10;
-    
-    
-    
-   // System.out.println("------------");
-    for(int i=0;i<effecnt;i++)
-    {
-    logger.info(effelist[i]);
-    //System.out.println(effelist[i]);
-    }
-  //  System.out.println("------------");
+
+        progress=10;
+
+
+
+/*
+        for(int i=0;i<effecnt;i++)
+        {
+            logger.info(effelist[i]);
+        }
+*/
+        effelist=new String[EffLst.size()];
+        int effelistcnt=0;
+        for(String s:EffLst)
+        {
+            logger.info(s);
+            effelist[effelistcnt]=s;
+            effelistcnt++;
+        }
     /*
     String tempresult=dq.Getip("114.114.114.114", "www.google.com.cat");
     ipadrs= tempresult.split("\\|");
@@ -169,27 +178,42 @@ public class AppspotSocket {
   int rip=0;
   boolean loopflag = true;
   int loopcnt=0;
-  while(loopflag){
-  
-  try{
-    rip=(int) (Math.random()*effecnt);  
-    socketAddress = new InetSocketAddress(effelist[rip],hostport);
-  sock = (SSLSocket) sslsocketfactory.createSocket();
-  sock.connect(socketAddress,88000);
+        while(loopflag){
 
-  loopflag=false;
-  }catch (SocketTimeoutException se){
-  loopcnt++;
-  logger.info("" + rip+" Time out Retry connect : "+ loopcnt);
-  //System.out.println("" + rip+" Time out Retry connect : "+ loopcnt);
- 
-  }
-  }
+            try{
+                if(rip==effelist.length)
+                {
+                    rip=0;
+                }
+                //rip=(int) (Math.random()*effecnt);
+                socketAddress = new InetSocketAddress(effelist[rip],hostport);
+                sock = (SSLSocket) sslsocketfactory.createSocket();
+                sock.connect(socketAddress,5000);
+
+
+
+
+                sock.setSoTimeout(20000);
+                //System.out.println("2222");
+
+                ost=sock.getOutputStream();
+                ist=sock.getInputStream();
+
+                progress=30;
+                loopflag=false;
+
+            }catch (SocketTimeoutException se){
+                rip++;
+                loopcnt++;
+                logger.info(effelist[rip-1]+"  " + rip+" Time out Retry connect : "+ loopcnt);
+
+            }
+        }
   logger.info("connected!!"+rip +" :: "+effelist[rip]);
  //System.out.println("connected!!"+rip +" :: "+effelist[rip]);
  
  progress=30;
-    sock.setSoTimeout(150000);
+    sock.setSoTimeout(10000);
  //System.out.println("2222");
     ost=sock.getOutputStream();
     ist=sock.getInputStream();
